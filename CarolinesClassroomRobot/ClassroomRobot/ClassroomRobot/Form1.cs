@@ -36,12 +36,24 @@ namespace ClassroomRobot
 
             //GridPosition grid = new GridPosition();
             //grid.ReadFromFile();
-
+            
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            EditPopup test = new EditPopup((Students)GridPosition.StudentList[0], (Colours)GridPosition.itemlist[0], 0,0);
+            string columnHeader = dataGridClass.SelectedCells[0].OwningColumn.HeaderCell.ToString();
+            string rowHeader = dataGridClass.SelectedCells[0].OwningRow.HeaderCell.ToString();
+            int studentIndex = 0;
+
+            foreach (Students student in GridPosition.StudentList)
+            {
+                if(student.Column.ToString() == columnHeader && student.Row.ToString() == rowHeader)
+                {
+                    studentIndex = GridPosition.StudentList.IndexOf(student);
+                }
+            }
+
+            EditPopup test = new EditPopup((Students)GridPosition.StudentList[studentIndex], (Colours)GridPosition.itemlist[0]);
             //test.Tag = GridPosition.StudentList[0];
             test.ShowDialog();
             //{

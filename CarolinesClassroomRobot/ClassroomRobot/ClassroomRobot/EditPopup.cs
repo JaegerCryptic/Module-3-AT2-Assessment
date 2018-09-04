@@ -22,14 +22,12 @@ namespace ClassroomRobot
         {
             InitializeComponent();
         }
-        public EditPopup(Students student, Colours colour, int studentIndex, int colourIndex)
+        public EditPopup(Students student, Colours colour)
         {
             InitializeComponent();
 
             myStudent = student;
             myColour = colour;
-            ColourIndex = colourIndex;
-            StudentIndex = studentIndex;
         }
 
         private void EditPopup_Load(object sender, EventArgs e)
