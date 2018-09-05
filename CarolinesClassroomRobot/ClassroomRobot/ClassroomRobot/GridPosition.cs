@@ -17,9 +17,9 @@ namespace ClassroomRobot
         public static ArrayList StudentList = new ArrayList();
         public static ArrayList itemlist = new ArrayList();
 
-        public static void ReadStudentsFromFile()
+        public static void ReadStudentsFromFile(string FilePath)
         {
-            var lines = System.IO.File.ReadAllLines("ClassRoomLayout.csv").Skip(4);
+            var lines = System.IO.File.ReadAllLines(FilePath).Skip(4);
             int i = 0;
             foreach (string item in lines)
             {

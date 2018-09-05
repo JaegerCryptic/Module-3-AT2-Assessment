@@ -20,12 +20,14 @@ namespace ClassroomRobot
             InitializeComponent();
             dataGridClass.DataSource = table;
 
-            GridPosition.ReadStudentsFromFile();
             txtDate.Text = DateTime.Now.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            OpenFileDialog dialog = new OpenFileDialog();
+            FileDialog.OpenFile(dialog);
+
             var DataGrid = new DataGrid();
             DataGrid.SizeDGV(dataGridClass);
 

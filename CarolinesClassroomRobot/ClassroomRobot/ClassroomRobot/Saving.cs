@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ClassroomRobot
 {
-    class Saving : Main
+    class Saving
     {
         public static void  SaveToFile(string teacher, string classNo, string room, string date)
         {
@@ -37,7 +37,7 @@ namespace ClassroomRobot
 
                 if (studentNames == null)
                 {
-                    studentNames = "Empty";
+                    studentNames = "Empty Desk";
                 }
 
                 var studentRow = student.Row;
