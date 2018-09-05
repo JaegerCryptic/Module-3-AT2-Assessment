@@ -34,9 +34,9 @@ C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobo
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\bin\Debug\ClassroomRobot.pdb
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csprojAssemblyReference.cache
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.EditPopup.resources
-C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.Form1.resources
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.Properties.Resources.resources
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csproj.GenerateResource.cache
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csproj.CoreCompileInputs.cache
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.exe
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.pdb
+C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.Main.resources

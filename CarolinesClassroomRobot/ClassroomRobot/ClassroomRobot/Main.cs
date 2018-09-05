@@ -11,20 +11,16 @@ using System.Windows.Forms;
 namespace ClassroomRobot
 {
 
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         DataTable table =  DataGrid.Classroom();
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
-
-            //table = myInfo.
-
             dataGridClass.DataSource = table;
 
             GridPosition.ReadFromFile();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -33,34 +29,34 @@ namespace ClassroomRobot
             DataGrid.SizeDGV(dataGridClass);
 
             GridPosition.DisplayGrid(dataGridClass);
-
-            //GridPosition grid = new GridPosition();
-            //grid.ReadFromFile();
-            
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            string columnHeader = dataGridClass.SelectedCells[0].OwningColumn.HeaderCell.ToString();
-            string rowHeader = dataGridClass.SelectedCells[0].OwningRow.HeaderCell.ToString();
+            int columnHeader = Convert.ToInt32(dataGridClass.SelectedCells[0].OwningColumn.HeaderCell.ColumnIndex);
+            int rowHeader = Convert.ToInt32(dataGridClass.SelectedCells[0].OwningRow.HeaderCell.RowIndex);
             int studentIndex = 0;
+            bool found = false;
 
             foreach (Students student in GridPosition.StudentList)
             {
-                if(student.Column.ToString() == columnHeader && student.Row.ToString() == rowHeader)
+                if(student.Column == columnHeader && student.Row == rowHeader)
                 {
                     studentIndex = GridPosition.StudentList.IndexOf(student);
+                    found = true;
                 }
             }
-
-            EditPopup test = new EditPopup((Students)GridPosition.StudentList[studentIndex], (Colours)GridPosition.itemlist[0]);
-            //test.Tag = GridPosition.StudentList[0];
-            test.ShowDialog();
-            //{
-              //  MessageBox.Show(myStudent.Names);
-            //}
-            GridPosition.DisplayGrid(dataGridClass);
-
+            
+            if (found == false)
+            {
+                MessageBox.Show("This is not a person.");
+            }
+            else
+            {
+                EditPopup test = new EditPopup((Students)GridPosition.StudentList[studentIndex]);
+                test.ShowDialog();
+                GridPosition.DisplayGrid(dataGridClass);
+            }
         }
     }
 }

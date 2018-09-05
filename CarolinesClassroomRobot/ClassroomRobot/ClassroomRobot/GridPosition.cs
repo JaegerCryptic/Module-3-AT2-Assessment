@@ -33,7 +33,6 @@ namespace ClassroomRobot
                     
                     Students myStudent = new Students(Name, Down, Across);
                     StudentList.Add(myStudent);
-                    //MessageBox.Show(myStudent.Row + " " + myStudent.Names + " " + myStudent.Column);
                 } 
                 else
                 {
