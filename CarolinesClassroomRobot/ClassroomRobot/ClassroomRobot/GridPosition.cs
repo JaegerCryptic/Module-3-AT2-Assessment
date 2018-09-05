@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,10 +15,9 @@ namespace ClassroomRobot
         public static int Down { get; set; }
         public static string Name { get; set; }
         public static ArrayList StudentList = new ArrayList();
-        
         public static ArrayList itemlist = new ArrayList();
 
-        public static void ReadFromFile()
+        public static void ReadStudentsFromFile()
         {
             var lines = System.IO.File.ReadAllLines("ClassRoomLayout.csv").Skip(4);
             int i = 0;

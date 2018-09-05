@@ -24,7 +24,7 @@ namespace ClassroomRobot
             }
                 return csvTable;
         }
-        public void SizeDGV(DataGridView dgv)
+        public static void SizeDGV(DataGridView dgv)
         {
             for (int i = 0; i < dgv.Rows.Count; i++)
             {

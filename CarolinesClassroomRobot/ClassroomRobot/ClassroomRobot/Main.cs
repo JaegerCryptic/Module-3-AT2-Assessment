@@ -20,7 +20,8 @@ namespace ClassroomRobot
             InitializeComponent();
             dataGridClass.DataSource = table;
 
-            GridPosition.ReadFromFile();
+            GridPosition.ReadStudentsFromFile();
+            txtDate.Text = DateTime.Now.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,6 +30,7 @@ namespace ClassroomRobot
             DataGrid.SizeDGV(dataGridClass);
 
             GridPosition.DisplayGrid(dataGridClass);
+            dataGridClass.ClearSelection();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -57,6 +59,17 @@ namespace ClassroomRobot
                 test.ShowDialog();
                 GridPosition.DisplayGrid(dataGridClass);
             }
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            table.Clear();
+            dataGridClass.Refresh();
+            table = DataGrid.Classroom();
+            dataGridClass.DataSource = table;
+            DataGrid.SizeDGV(dataGridClass);
+           
+
         }
     }
 }
