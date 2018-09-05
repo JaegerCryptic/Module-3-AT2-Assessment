@@ -40,3 +40,14 @@ C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobo
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.exe
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.pdb
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.Main.resources
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\bin\Debug\ClassroomRobot.exe.config
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\bin\Debug\ClassroomRobot.exe
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\bin\Debug\ClassroomRobot.pdb
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csprojResolveAssemblyReference.cache
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.EditPopup.resources
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.Main.resources
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.Properties.Resources.resources
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csproj.GenerateResource.Cache
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csproj.CoreCompileInputs.cache
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.exe
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.pdb

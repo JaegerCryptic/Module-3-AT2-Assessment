@@ -63,11 +63,6 @@ namespace ClassroomRobot
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            //table.Clear();
-            //dataGridClass.Refresh();
-            //table = DataGrid.Classroom();
-            //dataGridClass.DataSource = table;
-            //DataGrid.SizeDGV(dataGridClass);
             foreach (Students student in GridPosition.StudentList)
             {
                 if(student.Names != "Front Desk")
@@ -77,6 +72,11 @@ namespace ClassroomRobot
             }
             GridPosition.DisplayGrid(dataGridClass);
 
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            Saving.SaveToFile();
         }
     }
 }
