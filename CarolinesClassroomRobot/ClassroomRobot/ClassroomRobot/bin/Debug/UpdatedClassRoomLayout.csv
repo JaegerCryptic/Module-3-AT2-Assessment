@@ -1,19 +1,53 @@
-4,0,Front Desk
-1,5,Apples
-2,5,
-4,5,
-5,5,
-7,5,
-8,5,
-1,8,
-2,8,
-4,8,
-5,8,
-7,8,
-8,8,
-1,11,
-2,11,
-4,11,
-5,11,
-7,11,
-8,11,
+4,0,Front Desk,
+1,5,Empty,
+2,5,Empty,
+4,5,Empty,
+5,5,Empty,
+7,5,Empty,
+8,5,Empty,
+1,8,Empty,
+2,8,Empty,
+4,8,Empty,
+5,8,Empty,
+7,8,Empty,
+8,8,Empty,
+1,11,Empty,
+2,11,Empty,
+4,11,Empty,
+5,11,Empty,
+7,11,Empty,
+8,11,Empty,
+3,1,BKGRND FILL,blue
+4,1,BKGRND FILL,blue
+5,1,BKGRND FILL,blue
+6,1,BKGRND FILL,blue
+1,4,BKGRND FILL,blue
+2,4,BKGRND FILL,blue
+4,4,BKGRND FILL,blue
+5,4,BKGRND FILL,blue
+7,4,BKGRND FILL,blue
+8,4,BKGRND FILL,blue
+1,7,BKGRND FILL,blue
+2,7,BKGRND FILL,blue
+4,7,BKGRND FILL,blue
+5,7,BKGRND FILL,blue
+7,7,BKGRND FILL,blue
+8,7,BKGRND FILL,blue
+1,10,BKGRND FILL,blue
+2,10,BKGRND FILL,blue
+4,10,BKGRND FILL,blue
+5,10,BKGRND FILL,blue
+7,10,BKGRND FILL,blue
+8,10,BKGRND FILL,blue
+1,13,BKGRND FILL,blue
+2,13,BKGRND FILL,blue
+4,13,BKGRND FILL,blue
+5,13,BKGRND FILL,blue
+7,13,BKGRND FILL,blue
+8,13,BKGRND FILL,blue
+1,16,BKGRND FILL,blue
+2,16,BKGRND FILL,blue
+4,16,BKGRND FILL,blue
+5,16,BKGRND FILL,blue
+7,16,BKGRND FILL,blue
+8,16,BKGRND FILL,blue
