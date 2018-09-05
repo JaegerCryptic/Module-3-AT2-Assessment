@@ -76,7 +76,7 @@ namespace ClassroomRobot
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Saving.SaveToFile();
+            Saving.SaveToFile(txtTeacher.Text.ToString(), txtClass.Text.ToString(), txtRoom.Text.ToString(), txtDate.Text.ToString());
         }
     }
 }

@@ -10,11 +10,28 @@ namespace ClassroomRobot
 {
     class Saving : Main
     {
-        public static void  SaveToFile()
+        public static void  SaveToFile(string teacher, string classNo, string room, string date)
         {
             var csv = new StringBuilder();
 
-            foreach(Students student in GridPosition.StudentList)
+            var Teacher = teacher;
+            var ClassNo = classNo;
+            var Room = room;
+            var Date = date;
+
+            var csvTeacherFormat = string.Format("{0},{1}", "Teacher:", Teacher);
+            csv.AppendLine(csvTeacherFormat);
+
+            var csvClassNoFormat = string.Format("{0},{1}", "Class:", ClassNo);
+            csv.AppendLine(csvClassNoFormat);
+
+            var csvRoomFormat = string.Format("{0},{1}", "Room:", Room);
+            csv.AppendLine(csvRoomFormat);
+
+            var csvDateFormat = string.Format("{0},{1}", "Date:", Date);
+            csv.AppendLine(csvDateFormat);
+
+            foreach (Students student in GridPosition.StudentList)
             {
                 var studentNames = student.Names;
 
@@ -41,6 +58,5 @@ namespace ClassroomRobot
             File.WriteAllText("UpdatedClassRoomLayout.csv", csv.ToString());
             MessageBox.Show("New layout successfully saved as UpdatedClassRoomLayout.csv.");
         }
-
     }
 }
