@@ -29,8 +29,13 @@ namespace ClassroomRobot
                 {
                     Across = Convert.ToInt32(values[0]);
                     Down = Convert.ToInt32(values[1]);
-                    Name = values[2];
                     
+                    Name = values[2];
+                    if (values[2] == "Empty Desk")
+                    {
+                        Name = null;
+                    }
+
                     Students myStudent = new Students(Name, Down, Across);
                     StudentList.Add(myStudent);
                 } 
