@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="17f027b6-3c9b-4ce2-abe3-1f67bbe98b83" Title="ClassroomRobot" Url="html/52f6ae3f-9a90-cba9-8053-f8937a607acc.htm">
+    <HelpTOCNode Id="43f80aed-43a6-400d-b9e7-3daf262a3b69" Title="Colours Class" Url="html/bd88c6d1-1256-4c9a-fc8b-34b6a1e3c392.htm">
+      <HelpTOCNode Title="Colours Constructor " Url="html/75f93c3f-8dd0-ce7b-33b3-3003dd3736b5.htm" />
+      <HelpTOCNode Id="2443a915-b678-43cf-a951-f5c5e868c55e" Title="Colours Properties" Url="html/aa76f9b4-c471-2b22-570d-5c26a77b1e34.htm">
+        <HelpTOCNode Title="Colour Property " Url="html/8a3e75f6-1702-418d-4dfe-12cb75dd2bd0.htm" />
+        <HelpTOCNode Title="Column Property " Url="html/836754dd-f561-0e15-fbfb-ed9a542e3467.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/c47d3816-ce04-16c0-1103-e85a4056f0d9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Colours Methods" Url="html/d508d46a-7de2-584e-086f-7868d3f7153e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="57e66c34-1e29-4480-9698-e17a1a973452" Title="DataGrid Class" Url="html/bb9941a4-a1b5-6517-33c0-6d2585547796.htm">
+      <HelpTOCNode Title="DataGrid Constructor " Url="html/b10f0239-2745-6a98-8fc2-3325bbdb2733.htm" />
+      <HelpTOCNode Id="55b8a14f-c6c8-4eb3-88d6-6b1c75978e68" Title="DataGrid Methods" Url="html/f0fde0e7-9a8a-2a1f-b36f-d66367912341.htm">
+        <HelpTOCNode Title="Classroom Method " Url="html/e049ccd1-5871-5d65-9d18-2300fe45c920.htm" />
+        <HelpTOCNode Title="SizeDGV Method " Url="html/898e3925-c311-92fa-352a-de8187f7c0b7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7c5e896d-3ddd-4c98-9af3-97e552123d9c" Title="EditPopup Class" Url="html/55bd8f6c-ccc9-ed17-b653-f9dc0178f496.htm">
+      <HelpTOCNode Id="c5ea4036-ded9-457a-8a0a-fafa062fb1df" Title="EditPopup Constructor " Url="html/58ea1b15-924f-282e-1bad-dda7c3b9bc78.htm">
+        <HelpTOCNode Title="EditPopup Constructor " Url="html/2bbf25b0-52b6-c95a-4cf5-3c4f05b4ad2a.htm" />
+        <HelpTOCNode Title="EditPopup Constructor (Students)" Url="html/dad033c8-9031-2f4c-343f-2657b0a924c3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EditPopup Properties" Url="html/93e447c0-605c-0f8e-a3c3-705c344c3c24.htm" />
+      <HelpTOCNode Id="9bfba24b-5c92-4621-b916-16fa720f8d49" Title="EditPopup Methods" Url="html/4919fe4b-c8ce-3319-5917-67c90cd111f5.htm">
+        <HelpTOCNode Id="a9ed606e-2ac4-475a-be30-3534891d966a" Title="Dispose Method " Url="html/1572af80-65d6-1dd9-69fe-55e5e7d4e156.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/1700247a-fef1-3c2a-1ddd-f7b964bb91ad.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="EditPopup Events" Url="html/c0827a9d-726d-642d-f2d3-8b1f19cfc989.htm" />
+      <HelpTOCNode Id="48a95987-6f7e-4fac-b3c3-41e211a76e23" Title="EditPopup Fields" Url="html/d5d1ae36-2e5e-c29d-4f76-f8844188723b.htm">
+        <HelpTOCNode Title="myStudent Field" Url="html/6bcc2305-2368-c376-638a-6bb39f5acedd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5a41fb1b-b781-4eed-afd5-d8a1d4e7c68b" Title="GridPosition Class" Url="html/0952248c-41bd-bd18-746b-95f19df20c2b.htm">
+      <HelpTOCNode Id="66c82501-6d9d-41e3-ad62-20487abb4045" Title="GridPosition Properties" Url="html/c4f76f26-ed57-992d-31b5-c3f601ca3058.htm">
+        <HelpTOCNode Title="Across Property " Url="html/12827a7f-e03f-0139-bc64-bbf0cb235471.htm" />
+        <HelpTOCNode Title="Down Property " Url="html/202859eb-9b1a-f56e-bc74-9cdd24c2f95c.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/c2ad7db3-17c5-dad2-0f31-58f4b7af1871.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="410813df-b09f-4b17-885c-6752dbe0ad89" Title="GridPosition Methods" Url="html/46b8c4ca-a3fa-ba27-fb68-04178041c51f.htm">
+        <HelpTOCNode Title="DisplayGrid Method " Url="html/afc30ff1-167b-94c7-519c-637e28214031.htm" />
+        <HelpTOCNode Title="ReadStudentsFromFile Method " Url="html/89fc4faf-3b35-0964-3297-32804f3bbb62.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="da38d765-082c-44e8-985e-1233b572ae36" Title="GridPosition Fields" Url="html/1acba7f7-4552-2618-c845-db9bf9aad5d4.htm">
+        <HelpTOCNode Title="itemlist Field" Url="html/9d919436-91ed-08ee-b5e6-cd744ff3a528.htm" />
+        <HelpTOCNode Title="StudentList Field" Url="html/c4baae9d-60ca-43a6-8f5e-bbae98682da1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8cd99eed-4ca1-4884-af46-13b7451c5bf7" Title="Main Class" Url="html/6b78cf69-9190-0771-5c5e-e9571ecfc996.htm">
+      <HelpTOCNode Title="Main Constructor " Url="html/fb0fc103-9ac2-78fc-612a-934a328e0429.htm" />
+      <HelpTOCNode Title="Main Properties" Url="html/b8c6247c-f56d-9a6c-e029-78f660e56a05.htm" />
+      <HelpTOCNode Id="5b455586-e1c5-4533-9a3d-4406b32d5e37" Title="Main Methods" Url="html/03e82dce-1968-a8a8-3ed6-fc21098b6129.htm">
+        <HelpTOCNode Id="ca30e362-72c6-4f84-befb-c5cda514eb8f" Title="Dispose Method " Url="html/46ffac41-3a04-d0a7-b277-f37373889c53.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/b474141d-46b4-4b57-ef42-886871929b1d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Main Events" Url="html/9d5eb172-f17e-0540-5dbe-690cdcc48e52.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="afc475c1-b5d8-49c5-a8e2-168e00e19bc0" Title="SortAndSearchPopup Class" Url="html/95a721d9-03ea-5f58-f48d-566c0475e10f.htm">
+      <HelpTOCNode Id="01738983-8018-481d-a4a8-ac3c9419b96a" Title="SortAndSearchPopup Constructor " Url="html/4547c33f-a174-790f-3515-3e04a6edc57d.htm">
+        <HelpTOCNode Title="SortAndSearchPopup Constructor " Url="html/15cfcfe1-daa7-9b98-3d0d-f5b62ed3347d.htm" />
+        <HelpTOCNode Title="SortAndSearchPopup Constructor (String)" Url="html/253c534d-4baf-7a6c-92f5-3ec53fffd263.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7c067c54-4fa5-4eae-84d1-5103124a7b00" Title="SortAndSearchPopup Properties" Url="html/eddad160-2ab7-2d1a-bbf8-7ff45df3ef42.htm">
+        <HelpTOCNode Title="Index Property " Url="html/49a05953-a1dc-720a-b2cc-113824b873e4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a532a650-682d-4e71-83d9-c8ce8ea4a162" Title="SortAndSearchPopup Methods" Url="html/f37e805e-c39a-fa0e-725a-8bb2f740c963.htm">
+        <HelpTOCNode Id="e95ccb68-8692-4a4e-8e90-9d19b807d38c" Title="Dispose Method " Url="html/9390f55c-3088-256b-4bf8-aaff27032e0d.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/123eb1f9-7e46-4765-bc25-e34ce1afdd1a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="SortAndSearchPopup Events" Url="html/912d930e-d116-addd-1144-e30113527245.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd5ea42a-3dea-43b0-826a-da3b8f5adca0" Title="Students Class" Url="html/988bfc02-3d71-4285-7a6e-bd61e80f765c.htm">
+      <HelpTOCNode Title="Students Constructor " Url="html/ade276dc-443d-0a28-57e5-e63e3f9dece6.htm" />
+      <HelpTOCNode Id="5c6d34e0-1c0a-45e6-8f3e-ad37e5890946" Title="Students Properties" Url="html/db6557e9-3844-2f38-cd75-ebf08190786e.htm">
+        <HelpTOCNode Title="Column Property " Url="html/a094ce29-a686-79cf-faf4-95fcd000e584.htm" />
+        <HelpTOCNode Title="Names Property " Url="html/192f835a-6de8-ce00-8dfe-321881886415.htm" />
+        <HelpTOCNode Title="RecSize Property " Url="html/f34f68ec-4c27-ed12-42c2-045ae29bf0be.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/63b99388-23b8-1756-7939-982266da140b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="27fe0a13-2dc9-468a-bbc6-1e4b57d54ddc" Title="Students Methods" Url="html/e44c6167-617a-338a-2055-17880d90a9b0.htm">
+        <HelpTOCNode Title="SetStudentName Method " Url="html/60d5d316-d51d-fe25-7292-b24ac87cd033.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

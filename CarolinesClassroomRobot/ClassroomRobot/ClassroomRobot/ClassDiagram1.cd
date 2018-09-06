@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassroomRobot.Main" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAABACAAABBgIACgAAADACgANBAAEQQBAAKCAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ClassroomRobot.RandomAccess">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAEAAQAAAABAAIQAAAAAAgAMAAAAAAAAAAA=</HashCode>
+      <FileName>RandomAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.Colours">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAABAAAAA=</HashCode>
+      <FileName>Colours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.DataGrid">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.EditPopup">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQABEAAACAAEACAAAAABAAAAQAAAIAAAQ=</HashCode>
+      <FileName>EditPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.FileDialog">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.GridPosition">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAkAEAAAAAAAQAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>GridPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.Saving">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Saving.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.SortAndSearchPopup">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAEAAAAAABA=</HashCode>
+      <FileName>SortAndSearchPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassroomRobot.Students">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAABAAAAAAAQAAgAAAAAAAAAABAA=</HashCode>
+      <FileName>Students.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

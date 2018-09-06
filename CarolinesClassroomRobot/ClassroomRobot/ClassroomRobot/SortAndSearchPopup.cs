@@ -1,4 +1,10 @@
-﻿using System;
+﻿///-------------------------------------------------------------------------------------------------
+// file:	SortAndSearchPopup.cs
+//
+// summary:	Implements the sort and search popup class
+///-------------------------------------------------------------------------------------------------
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,11 +17,29 @@ using System.Windows.Forms;
 
 namespace ClassroomRobot
 {
+    ///-------------------------------------------------------------------------------------------------
+    /// <summary>   Popup for displayng the sort and search. </summary>
+    ///
+    /// <remarks>   Jaege, 6/09/2018. </remarks>
+    ///-------------------------------------------------------------------------------------------------
 
     public partial class SortAndSearchPopup : Form
        
     {
+        ///-------------------------------------------------------------------------------------------------
+        /// <summary>   Gets or sets the zero-based index of this object. </summary>
+        ///
+        /// <value> The index. </value>
+        ///-------------------------------------------------------------------------------------------------
+
         public int Index { set; get; }
+
+        ///-------------------------------------------------------------------------------------------------
+        /// <summary>   Default constructor. </summary>
+        ///
+        /// <remarks>   Jaege, 6/09/2018. </remarks>
+        ///-------------------------------------------------------------------------------------------------
+
         public SortAndSearchPopup()
         {
             InitializeComponent();
@@ -47,6 +71,15 @@ namespace ClassroomRobot
 
             dataGridStudentsList.DataSource = sortedStudents;
         }
+
+        ///-------------------------------------------------------------------------------------------------
+        /// <summary>   Constructor. </summary>
+        ///
+        /// <remarks>   Jaege, 6/09/2018. </remarks>
+        ///
+        /// <param name="searchValue">  The search value. </param>
+        ///-------------------------------------------------------------------------------------------------
+
         public SortAndSearchPopup(string searchValue)
         {
             InitializeComponent();
@@ -95,6 +128,15 @@ namespace ClassroomRobot
 
           
         }
+
+        ///-------------------------------------------------------------------------------------------------
+        /// <summary>   Event handler. Called by SortAndSearchPopup for load events. </summary>
+        ///
+        /// <remarks>   Jaege, 6/09/2018. </remarks>
+        ///
+        /// <param name="sender">   Source of the event. </param>
+        /// <param name="e">        Event information. </param>
+        ///-------------------------------------------------------------------------------------------------
 
         private void SortAndSearchPopup_Load(object sender, EventArgs e)
         {

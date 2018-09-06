@@ -15,7 +15,7 @@ namespace ClassroomRobot
         public static string Name { get; set; }
         public static int pos = 0;
 
-       public static void Main(string StudentName, int StudentRow, int StudentColumn)
+       public static void MainMethod(string StudentName, int StudentRow, int StudentColumn)
         {
             Name = StudentName;
             Row = StudentRow;
@@ -23,9 +23,6 @@ namespace ClassroomRobot
 
             ReadFromFile("Student.txt");
             AddRecord();
-            Console.Write("Enter a record number to find: ");
-            int index = Convert.ToInt32(Console.ReadLine());
-            FindFromFile("Student.txt", index);
         }
 
         static void AddRecord()
@@ -36,6 +33,7 @@ namespace ClassroomRobot
             {
                 pos += 1;
                 WriteToFile("Student.txt", stu, pos, stu.RecSize);
+                MessageBox.Show(" " + Name +" Has been saved.");
             }
             else if (dialogResult == DialogResult.No)
             {
@@ -56,8 +54,8 @@ namespace ClassroomRobot
             fout.Position = pos * size;
 
             bw.Write(obj.Names);
-            bw.Write(obj.Row);
-            bw.Write(obj.Column);
+            bw.Write(obj.Row.ToString());
+            bw.Write(obj.Column.ToString());
 
             bw.Close();
             fout.Close();
@@ -88,11 +86,8 @@ namespace ClassroomRobot
                     fn.Seek(currentRecord * stu.RecSize, 0);
 
                     stu.Names = br.ReadString().ToString();
-
-                    string studentRow = Row.ToString();
-                    studentRow = br.ReadString().ToString();
-                    string studentColumn = Column.ToString();
-                    studentColumn = br.ReadString().ToString();
+                    stu.Row = br.ReadInt32();
+                    stu.Column = br.ReadInt32();
                 }
 
                 pos = currentRecord;
@@ -125,10 +120,8 @@ namespace ClassroomRobot
                 fn.Seek(currentRecord * stu.RecSize, 0);
 
                 stu.Names = br.ReadString().ToString();
-                string studentRow = Row.ToString();
-                studentRow = br.ReadString().ToString();
-                string studentColumn = Column.ToString();
-                studentColumn = br.ReadString().ToString();
+                stu.Row = br.ReadInt32();
+                stu.Column = br.ReadInt32();
 
                 pos = currentRecord;
 

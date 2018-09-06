@@ -1,4 +1,10 @@
-﻿using System;
+﻿///-------------------------------------------------------------------------------------------------
+// file:	Saving.cs
+//
+// summary:	Implements the saving class
+///-------------------------------------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,8 +14,25 @@ using System.Windows.Forms;
 
 namespace ClassroomRobot
 {
+    ///-------------------------------------------------------------------------------------------------
+    /// <summary>   A saving. </summary>
+    ///
+    /// <remarks>   Jaege, 6/09/2018. </remarks>
+    ///-------------------------------------------------------------------------------------------------
+
     class Saving
     {
+        ///-------------------------------------------------------------------------------------------------
+        /// <summary>   Saves to file. </summary>
+        ///
+        /// <remarks>   Jaege, 6/09/2018. </remarks>
+        ///
+        /// <param name="teacher">  The teacher. </param>
+        /// <param name="classNo">  The class no. </param>
+        /// <param name="room">     The room. </param>
+        /// <param name="date">     The date. </param>
+        ///-------------------------------------------------------------------------------------------------
+
         public static void  SaveToFile(string teacher, string classNo, string room, string date)
         {
             var csv = new StringBuilder();
