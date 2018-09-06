@@ -85,13 +85,14 @@ namespace ClassroomRobot
         {
             SortAndSearchPopup sort = new SortAndSearchPopup();
             sort.ShowDialog();
+           
         }
 
         private void btnFind_Click(object sender, EventArgs e)
         {
             string userName = txtSearch.Text;
             SortAndSearchPopup search = new SortAndSearchPopup(userName);
-
+            search.Show();
         }
     }
 }
