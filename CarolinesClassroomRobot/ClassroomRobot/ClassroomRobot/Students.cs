@@ -20,6 +20,20 @@ namespace ClassroomRobot
             Column = column;
         }
 
+        public interface IUserSortedStudent
+        {
+            string Name { get; set; }
+        }
+        public class MyNameComparer : IComparer<IUserSortedStudent>
+        {
+            public int Compare(IUserSortedStudent x, IUserSortedStudent y)
+            {
+                return Comparer<IUserSortedStudent>.Default.Compare(y, x);
+            }
+        }
+
+
+
         public void SetStudentName(string name)
         {
             Names = name;

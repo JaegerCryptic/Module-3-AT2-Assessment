@@ -46,6 +46,41 @@ namespace ClassroomRobot
 
             dataGridStudentsList.DataSource = sortedStudents;
         }
+        public SortAndSearchPopup(string searchValue)
+        {
+            InitializeComponent();
+            ArrayList StudentPopupList = new ArrayList();
+
+            foreach (Students student in GridPosition.StudentList)
+            {
+                if (student.Names != "Empty Desk" && student.Names != null && student.Names != "Front Desk")
+                {
+                    string myStudent = student.Names;
+                    int myRow = student.Row;
+                    int myColumn = student.Column;
+
+
+                    Students allStudents = new Students(myStudent, myRow, myColumn);
+                    StudentPopupList.Add(allStudents);
+                }
+            }
+            DataTable sortedStudents = new DataTable();
+            sortedStudents.Columns.Add("Student");
+            sortedStudents.Columns.Add("Row");
+            sortedStudents.Columns.Add("Column");
+
+            var sortedList = StudentPopupList.Cast<Students>().OrderBy(student => student.Names);
+            foreach (Students student in sortedList)
+            {
+                sortedStudents.Rows.Add(student.Names, student.Row, student.Column);
+            }
+
+            dataGridStudentsList.DataSource = sortedStudents;
+
+            int index = StudentPopupList.BinarySearch(searchValue);
+            MessageBox.Show(index.ToString());
+        }
+
 
         private void SortAndSearchPopup_Load(object sender, EventArgs e)
         {

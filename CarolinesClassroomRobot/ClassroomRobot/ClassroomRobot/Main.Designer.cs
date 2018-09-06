@@ -50,7 +50,7 @@
             this.btnFind = new System.Windows.Forms.Button();
             this.btnRAF = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridClass = new System.Windows.Forms.DataGridView();
             this.btnEdit = new System.Windows.Forms.Button();
@@ -212,6 +212,7 @@
             this.btnFind.TabIndex = 14;
             this.btnFind.Text = "&Find";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // btnRAF
             // 
@@ -231,15 +232,15 @@
             this.btnExit.Text = "&Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // txtSearch
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox5.Location = new System.Drawing.Point(407, 561);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(108, 20);
-            this.textBox5.TabIndex = 17;
+            this.txtSearch.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtSearch.Location = new System.Drawing.Point(407, 561);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(108, 20);
+            this.txtSearch.TabIndex = 17;
             // 
             // label6
             // 
@@ -314,7 +315,7 @@
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dataGridClass);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnRAF);
             this.Controls.Add(this.btnFind);
@@ -359,7 +360,7 @@
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Button btnRAF;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridClass;
         private System.Windows.Forms.Button btnEdit;
