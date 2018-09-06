@@ -202,6 +202,7 @@
             this.btnSort.TabIndex = 13;
             this.btnSort.Text = "Sort";
             this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // btnFind
             // 

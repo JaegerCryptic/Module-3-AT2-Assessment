@@ -80,5 +80,11 @@ namespace ClassroomRobot
         {
             Saving.SaveToFile(txtTeacher.Text.ToString(), txtClass.Text.ToString(), txtRoom.Text.ToString(), txtDate.Text.ToString());
         }
+
+        private void btnSort_Click(object sender, EventArgs e)
+        {
+            SortAndSearchPopup sort = new SortAndSearchPopup();
+            sort.ShowDialog();
+        }
     }
 }

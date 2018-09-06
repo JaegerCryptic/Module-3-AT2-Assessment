@@ -51,3 +51,4 @@ C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomR
 C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csproj.CoreCompileInputs.cache
 C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.exe
 C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.pdb
+C:\Users\7105200717\Documents\GitHub\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.SortAndSearchPopup.resources
