@@ -13,7 +13,7 @@ namespace ClassroomRobot
 
     public partial class Main : Form
     {
-        DataTable table =  DataGrid.Classroom();
+        DataTable table = DataGrid.Classroom();
 
         public Main()
         {
@@ -44,13 +44,13 @@ namespace ClassroomRobot
 
             foreach (Students student in GridPosition.StudentList)
             {
-                if(student.Column == columnHeader && student.Row == rowHeader)
+                if (student.Column == columnHeader && student.Row == rowHeader)
                 {
                     studentIndex = GridPosition.StudentList.IndexOf(student);
                     found = true;
                 }
             }
-            
+
             if (found == false)
             {
                 MessageBox.Show("This is not a person.");
@@ -67,7 +67,7 @@ namespace ClassroomRobot
         {
             foreach (Students student in GridPosition.StudentList)
             {
-                if(student.Names != "Front Desk")
+                if (student.Names != "Front Desk")
                 {
                     student.Names = null;
                 }
@@ -85,7 +85,7 @@ namespace ClassroomRobot
         {
             SortAndSearchPopup sort = new SortAndSearchPopup();
             sort.ShowDialog();
-           
+
         }
 
         private void btnFind_Click(object sender, EventArgs e)
@@ -93,6 +93,26 @@ namespace ClassroomRobot
             string userName = txtSearch.Text;
             SortAndSearchPopup search = new SortAndSearchPopup(userName);
             search.Show();
+        }
+
+        private void btnRAF_Click(object sender, EventArgs e)
+        {
+            int columnHeader = Convert.ToInt32(dataGridClass.SelectedCells[0].OwningColumn.HeaderCell.ColumnIndex);
+            int rowHeader = Convert.ToInt32(dataGridClass.SelectedCells[0].OwningRow.HeaderCell.RowIndex);
+            int studentIndex = 0;
+            bool found = false;
+
+            foreach (Students student in GridPosition.StudentList)
+            {
+                if (student.Column == columnHeader && student.Row == rowHeader)
+                {
+                    studentIndex = GridPosition.StudentList.IndexOf(student);
+                    string name = student.Names;
+                    found = true;
+                    RandomAccess.Main(name, rowHeader, columnHeader);
+                    
+                }
+            }
         }
     }
 }

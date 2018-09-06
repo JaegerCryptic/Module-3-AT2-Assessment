@@ -222,6 +222,7 @@
             this.btnRAF.TabIndex = 15;
             this.btnRAF.Text = "&RAF";
             this.btnRAF.UseVisualStyleBackColor = true;
+            this.btnRAF.Click += new System.EventHandler(this.btnRAF_Click);
             // 
             // btnExit
             // 
