@@ -1,6 +1,6 @@
 ﻿namespace ClassroomRobot
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -50,7 +50,7 @@
             this.btnFind = new System.Windows.Forms.Button();
             this.btnRAF = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridClass = new System.Windows.Forms.DataGridView();
             this.btnEdit = new System.Windows.Forms.Button();
@@ -98,8 +98,10 @@
             this.txtTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTeacher.Location = new System.Drawing.Point(130, 55);
             this.txtTeacher.Name = "txtTeacher";
+            this.txtTeacher.ReadOnly = true;
             this.txtTeacher.Size = new System.Drawing.Size(100, 19);
             this.txtTeacher.TabIndex = 3;
+            this.txtTeacher.Text = "Caroline";
             // 
             // label3
             // 
@@ -121,6 +123,7 @@
             this.txtClass.Name = "txtClass";
             this.txtClass.Size = new System.Drawing.Size(100, 19);
             this.txtClass.TabIndex = 5;
+            this.txtClass.Text = "5B";
             // 
             // label4
             // 
@@ -142,6 +145,7 @@
             this.txtRoom.Name = "txtRoom";
             this.txtRoom.Size = new System.Drawing.Size(100, 19);
             this.txtRoom.TabIndex = 7;
+            this.txtRoom.Text = "B16";
             // 
             // label5
             // 
@@ -161,35 +165,44 @@
             this.txtDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDate.Location = new System.Drawing.Point(760, 55);
             this.txtDate.Name = "txtDate";
-            this.txtDate.Size = new System.Drawing.Size(74, 19);
+            this.txtDate.Size = new System.Drawing.Size(84, 19);
             this.txtDate.TabIndex = 9;
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(63, 560);
+            this.btnClear.Location = new System.Drawing.Point(143, 560);
+            this.btnClear.MaximumSize = new System.Drawing.Size(85, 22);
+            this.btnClear.MinimumSize = new System.Drawing.Size(85, 22);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(106, 22);
+            this.btnClear.Size = new System.Drawing.Size(85, 22);
             this.btnClear.TabIndex = 11;
             this.btnClear.Text = "&Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(175, 560);
+            this.btnSave.Location = new System.Drawing.Point(230, 560);
+            this.btnSave.MaximumSize = new System.Drawing.Size(85, 22);
+            this.btnSave.MinimumSize = new System.Drawing.Size(85, 22);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(106, 22);
+            this.btnSave.Size = new System.Drawing.Size(85, 22);
             this.btnSave.TabIndex = 12;
             this.btnSave.Text = "&Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnSort
             // 
-            this.btnSort.Location = new System.Drawing.Point(287, 560);
+            this.btnSort.Location = new System.Drawing.Point(318, 560);
+            this.btnSort.MaximumSize = new System.Drawing.Size(85, 22);
+            this.btnSort.MinimumSize = new System.Drawing.Size(85, 22);
             this.btnSort.Name = "btnSort";
-            this.btnSort.Size = new System.Drawing.Size(106, 22);
+            this.btnSort.Size = new System.Drawing.Size(85, 22);
             this.btnSort.TabIndex = 13;
             this.btnSort.Text = "Sort";
             this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // btnFind
             // 
@@ -199,6 +212,7 @@
             this.btnFind.TabIndex = 14;
             this.btnFind.Text = "&Find";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // btnRAF
             // 
@@ -208,6 +222,7 @@
             this.btnRAF.TabIndex = 15;
             this.btnRAF.Text = "&RAF";
             this.btnRAF.UseVisualStyleBackColor = true;
+            this.btnRAF.Click += new System.EventHandler(this.btnRAF_Click);
             // 
             // btnExit
             // 
@@ -218,15 +233,15 @@
             this.btnExit.Text = "&Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // txtSearch
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox5.Location = new System.Drawing.Point(407, 561);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(108, 20);
-            this.textBox5.TabIndex = 17;
+            this.txtSearch.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtSearch.Location = new System.Drawing.Point(407, 561);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(108, 20);
+            this.txtSearch.TabIndex = 17;
             // 
             // label6
             // 
@@ -283,15 +298,17 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(25, 560);
+            this.btnEdit.Location = new System.Drawing.Point(56, 560);
+            this.btnEdit.MaximumSize = new System.Drawing.Size(85, 22);
+            this.btnEdit.MinimumSize = new System.Drawing.Size(85, 22);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(85, 22);
             this.btnEdit.TabIndex = 20;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -299,7 +316,7 @@
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dataGridClass);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnRAF);
             this.Controls.Add(this.btnFind);
@@ -316,7 +333,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -344,7 +361,7 @@
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Button btnRAF;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridClass;
         private System.Windows.Forms.Button btnEdit;

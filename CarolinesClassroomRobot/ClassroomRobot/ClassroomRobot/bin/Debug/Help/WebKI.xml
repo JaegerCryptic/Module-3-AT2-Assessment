@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Across property" Url="html/12827a7f-e03f-0139-bc64-bbf0cb235471.htm" />
+  <HelpKINode Title="Classroom method" Url="html/e049ccd1-5871-5d65-9d18-2300fe45c920.htm" />
+  <HelpKINode Title="ClassroomRobot namespace" Url="html/52f6ae3f-9a90-cba9-8053-f8937a607acc.htm" />
+  <HelpKINode Title="ClassroomRobot.Colours class" Url="html/bd88c6d1-1256-4c9a-fc8b-34b6a1e3c392.htm" />
+  <HelpKINode Title="ClassroomRobot.DataGrid class" Url="html/bb9941a4-a1b5-6517-33c0-6d2585547796.htm" />
+  <HelpKINode Title="ClassroomRobot.EditPopup class" Url="html/55bd8f6c-ccc9-ed17-b653-f9dc0178f496.htm" />
+  <HelpKINode Title="ClassroomRobot.GridPosition class" Url="html/0952248c-41bd-bd18-746b-95f19df20c2b.htm" />
+  <HelpKINode Title="ClassroomRobot.Main class" Url="html/6b78cf69-9190-0771-5c5e-e9571ecfc996.htm" />
+  <HelpKINode Title="ClassroomRobot.SortAndSearchPopup class" Url="html/95a721d9-03ea-5f58-f48d-566c0475e10f.htm" />
+  <HelpKINode Title="ClassroomRobot.Students class" Url="html/988bfc02-3d71-4285-7a6e-bd61e80f765c.htm" />
+  <HelpKINode Title="Colour property" Url="html/8a3e75f6-1702-418d-4dfe-12cb75dd2bd0.htm" />
+  <HelpKINode Title="Colours class">
+    <HelpKINode Title="Colours Class" Url="html/bd88c6d1-1256-4c9a-fc8b-34b6a1e3c392.htm" />
+    <HelpKINode Title="constructor" Url="html/75f93c3f-8dd0-ce7b-33b3-3003dd3736b5.htm" />
+    <HelpKINode Title="methods" Url="html/d508d46a-7de2-584e-086f-7868d3f7153e.htm" />
+    <HelpKINode Title="properties" Url="html/aa76f9b4-c471-2b22-570d-5c26a77b1e34.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Colours.Colour property" Url="html/8a3e75f6-1702-418d-4dfe-12cb75dd2bd0.htm" />
+  <HelpKINode Title="Colours.Colours constructor" Url="html/75f93c3f-8dd0-ce7b-33b3-3003dd3736b5.htm" />
+  <HelpKINode Title="Colours.Column property" Url="html/836754dd-f561-0e15-fbfb-ed9a542e3467.htm" />
+  <HelpKINode Title="Colours.Row property" Url="html/c47d3816-ce04-16c0-1103-e85a4056f0d9.htm" />
+  <HelpKINode Title="Column property">
+    <HelpKINode Title="Colours.Column Property " Url="html/836754dd-f561-0e15-fbfb-ed9a542e3467.htm" />
+    <HelpKINode Title="Students.Column Property " Url="html/a094ce29-a686-79cf-faf4-95fcd000e584.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataGrid class">
+    <HelpKINode Title="DataGrid Class" Url="html/bb9941a4-a1b5-6517-33c0-6d2585547796.htm" />
+    <HelpKINode Title="constructor" Url="html/b10f0239-2745-6a98-8fc2-3325bbdb2733.htm" />
+    <HelpKINode Title="methods" Url="html/f0fde0e7-9a8a-2a1f-b36f-d66367912341.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataGrid.Classroom method" Url="html/e049ccd1-5871-5d65-9d18-2300fe45c920.htm" />
+  <HelpKINode Title="DataGrid.DataGrid constructor" Url="html/b10f0239-2745-6a98-8fc2-3325bbdb2733.htm" />
+  <HelpKINode Title="DataGrid.SizeDGV method" Url="html/898e3925-c311-92fa-352a-de8187f7c0b7.htm" />
+  <HelpKINode Title="DisplayGrid method" Url="html/afc30ff1-167b-94c7-519c-637e28214031.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="EditPopup.Dispose Method " Url="html/1572af80-65d6-1dd9-69fe-55e5e7d4e156.htm" />
+    <HelpKINode Title="Main.Dispose Method " Url="html/46ffac41-3a04-d0a7-b277-f37373889c53.htm" />
+    <HelpKINode Title="SortAndSearchPopup.Dispose Method " Url="html/9390f55c-3088-256b-4bf8-aaff27032e0d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Down property" Url="html/202859eb-9b1a-f56e-bc74-9cdd24c2f95c.htm" />
+  <HelpKINode Title="EditPopup class">
+    <HelpKINode Title="EditPopup Class" Url="html/55bd8f6c-ccc9-ed17-b653-f9dc0178f496.htm" />
+    <HelpKINode Title="constructor" Url="html/58ea1b15-924f-282e-1bad-dda7c3b9bc78.htm" />
+    <HelpKINode Title="events" Url="html/c0827a9d-726d-642d-f2d3-8b1f19cfc989.htm" />
+    <HelpKINode Title="fields" Url="html/d5d1ae36-2e5e-c29d-4f76-f8844188723b.htm" />
+    <HelpKINode Title="methods" Url="html/4919fe4b-c8ce-3319-5917-67c90cd111f5.htm" />
+    <HelpKINode Title="properties" Url="html/93e447c0-605c-0f8e-a3c3-705c344c3c24.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditPopup.Dispose method" Url="html/1572af80-65d6-1dd9-69fe-55e5e7d4e156.htm" />
+  <HelpKINode Title="EditPopup.EditPopup constructor" Url="html/58ea1b15-924f-282e-1bad-dda7c3b9bc78.htm" />
+  <HelpKINode Title="EditPopup.myStudent field" Url="html/6bcc2305-2368-c376-638a-6bb39f5acedd.htm" />
+  <HelpKINode Title="GridPosition class">
+    <HelpKINode Title="GridPosition Class" Url="html/0952248c-41bd-bd18-746b-95f19df20c2b.htm" />
+    <HelpKINode Title="fields" Url="html/1acba7f7-4552-2618-c845-db9bf9aad5d4.htm" />
+    <HelpKINode Title="methods" Url="html/46b8c4ca-a3fa-ba27-fb68-04178041c51f.htm" />
+    <HelpKINode Title="properties" Url="html/c4f76f26-ed57-992d-31b5-c3f601ca3058.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GridPosition.Across property" Url="html/12827a7f-e03f-0139-bc64-bbf0cb235471.htm" />
+  <HelpKINode Title="GridPosition.DisplayGrid method" Url="html/afc30ff1-167b-94c7-519c-637e28214031.htm" />
+  <HelpKINode Title="GridPosition.Down property" Url="html/202859eb-9b1a-f56e-bc74-9cdd24c2f95c.htm" />
+  <HelpKINode Title="GridPosition.itemlist field" Url="html/9d919436-91ed-08ee-b5e6-cd744ff3a528.htm" />
+  <HelpKINode Title="GridPosition.Name property" Url="html/c2ad7db3-17c5-dad2-0f31-58f4b7af1871.htm" />
+  <HelpKINode Title="GridPosition.ReadStudentsFromFile method" Url="html/89fc4faf-3b35-0964-3297-32804f3bbb62.htm" />
+  <HelpKINode Title="GridPosition.StudentList field" Url="html/c4baae9d-60ca-43a6-8f5e-bbae98682da1.htm" />
+  <HelpKINode Title="Index property" Url="html/49a05953-a1dc-720a-b2cc-113824b873e4.htm" />
+  <HelpKINode Title="itemlist field" Url="html/9d919436-91ed-08ee-b5e6-cd744ff3a528.htm" />
+  <HelpKINode Title="Main class">
+    <HelpKINode Title="Main Class" Url="html/6b78cf69-9190-0771-5c5e-e9571ecfc996.htm" />
+    <HelpKINode Title="constructor" Url="html/fb0fc103-9ac2-78fc-612a-934a328e0429.htm" />
+    <HelpKINode Title="events" Url="html/9d5eb172-f17e-0540-5dbe-690cdcc48e52.htm" />
+    <HelpKINode Title="methods" Url="html/03e82dce-1968-a8a8-3ed6-fc21098b6129.htm" />
+    <HelpKINode Title="properties" Url="html/b8c6247c-f56d-9a6c-e029-78f660e56a05.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Main.Dispose method" Url="html/46ffac41-3a04-d0a7-b277-f37373889c53.htm" />
+  <HelpKINode Title="Main.Main constructor" Url="html/fb0fc103-9ac2-78fc-612a-934a328e0429.htm" />
+  <HelpKINode Title="myStudent field" Url="html/6bcc2305-2368-c376-638a-6bb39f5acedd.htm" />
+  <HelpKINode Title="Name property" Url="html/c2ad7db3-17c5-dad2-0f31-58f4b7af1871.htm" />
+  <HelpKINode Title="Names property" Url="html/192f835a-6de8-ce00-8dfe-321881886415.htm" />
+  <HelpKINode Title="ReadStudentsFromFile method" Url="html/89fc4faf-3b35-0964-3297-32804f3bbb62.htm" />
+  <HelpKINode Title="RecSize property" Url="html/f34f68ec-4c27-ed12-42c2-045ae29bf0be.htm" />
+  <HelpKINode Title="Row property">
+    <HelpKINode Title="Colours.Row Property " Url="html/c47d3816-ce04-16c0-1103-e85a4056f0d9.htm" />
+    <HelpKINode Title="Students.Row Property " Url="html/63b99388-23b8-1756-7939-982266da140b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetStudentName method" Url="html/60d5d316-d51d-fe25-7292-b24ac87cd033.htm" />
+  <HelpKINode Title="SizeDGV method" Url="html/898e3925-c311-92fa-352a-de8187f7c0b7.htm" />
+  <HelpKINode Title="SortAndSearchPopup class">
+    <HelpKINode Title="SortAndSearchPopup Class" Url="html/95a721d9-03ea-5f58-f48d-566c0475e10f.htm" />
+    <HelpKINode Title="constructor" Url="html/4547c33f-a174-790f-3515-3e04a6edc57d.htm" />
+    <HelpKINode Title="events" Url="html/912d930e-d116-addd-1144-e30113527245.htm" />
+    <HelpKINode Title="methods" Url="html/f37e805e-c39a-fa0e-725a-8bb2f740c963.htm" />
+    <HelpKINode Title="properties" Url="html/eddad160-2ab7-2d1a-bbf8-7ff45df3ef42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SortAndSearchPopup.Dispose method" Url="html/9390f55c-3088-256b-4bf8-aaff27032e0d.htm" />
+  <HelpKINode Title="SortAndSearchPopup.Index property" Url="html/49a05953-a1dc-720a-b2cc-113824b873e4.htm" />
+  <HelpKINode Title="SortAndSearchPopup.SortAndSearchPopup constructor" Url="html/4547c33f-a174-790f-3515-3e04a6edc57d.htm" />
+  <HelpKINode Title="StudentList field" Url="html/c4baae9d-60ca-43a6-8f5e-bbae98682da1.htm" />
+  <HelpKINode Title="Students class">
+    <HelpKINode Title="Students Class" Url="html/988bfc02-3d71-4285-7a6e-bd61e80f765c.htm" />
+    <HelpKINode Title="constructor" Url="html/ade276dc-443d-0a28-57e5-e63e3f9dece6.htm" />
+    <HelpKINode Title="methods" Url="html/e44c6167-617a-338a-2055-17880d90a9b0.htm" />
+    <HelpKINode Title="properties" Url="html/db6557e9-3844-2f38-cd75-ebf08190786e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Students.Column property" Url="html/a094ce29-a686-79cf-faf4-95fcd000e584.htm" />
+  <HelpKINode Title="Students.Names property" Url="html/192f835a-6de8-ce00-8dfe-321881886415.htm" />
+  <HelpKINode Title="Students.RecSize property" Url="html/f34f68ec-4c27-ed12-42c2-045ae29bf0be.htm" />
+  <HelpKINode Title="Students.Row property" Url="html/63b99388-23b8-1756-7939-982266da140b.htm" />
+  <HelpKINode Title="Students.SetStudentName method" Url="html/60d5d316-d51d-fe25-7292-b24ac87cd033.htm" />
+  <HelpKINode Title="Students.Students constructor" Url="html/ade276dc-443d-0a28-57e5-e63e3f9dece6.htm" />
+</HelpKI>
