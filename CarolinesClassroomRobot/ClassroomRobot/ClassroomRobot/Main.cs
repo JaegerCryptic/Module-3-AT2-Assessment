@@ -189,18 +189,23 @@ namespace ClassroomRobot
             int columnHeader = Convert.ToInt32(dataGridClass.SelectedCells[0].OwningColumn.HeaderCell.ColumnIndex);
             int rowHeader = Convert.ToInt32(dataGridClass.SelectedCells[0].OwningRow.HeaderCell.RowIndex);
             int studentIndex = 0;
-            bool found = false;
+            string name = "";
 
             foreach (Students student in GridPosition.StudentList)
             {
                 if (student.Column == columnHeader && student.Row == rowHeader)
                 {
                     studentIndex = GridPosition.StudentList.IndexOf(student);
-                    string name = student.Names;
-                    found = true;
-                    RandomAccess.MainMethod(name, rowHeader, columnHeader);
+                    name = student.Names;
                 }
             }
+            RandomAccess.MainMethod(name, rowHeader, columnHeader, studentIndex);
+            GridPosition.DisplayGrid(dataGridClass);
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

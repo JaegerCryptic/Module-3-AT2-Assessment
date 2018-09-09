@@ -14,12 +14,15 @@ namespace ClassroomRobot
         public static int Row { get; set; }
         public static string Name { get; set; }
         public static int pos = 0;
+        public static int StudentNo = 0;
+        public static int Index { get; set; }
 
-       public static void MainMethod(string StudentName, int StudentRow, int StudentColumn)
+       public static void MainMethod(string StudentName, int StudentRow, int StudentColumn, int StudentIndex )
         {
             Name = StudentName;
             Row = StudentRow;
             Column = StudentColumn;
+            Index = StudentIndex;
 
             ReadFromFile("Student.txt");
             AddRecord();
@@ -32,12 +35,15 @@ namespace ClassroomRobot
             if (dialogResult == DialogResult.Yes)
             {
                 pos += 1;
+                StudentNo++;
+                stu.StudentNumber = StudentNo;
                 WriteToFile("Student.txt", stu, pos, stu.RecSize);
-                MessageBox.Show(" " + Name +" Has been saved.");
+                MessageBox.Show(" " + Name +" has been saved.");
             }
             else if (dialogResult == DialogResult.No)
             {
-                // do nothing
+                RandomAccessPopup view = new RandomAccessPopup((Students)GridPosition.StudentList[Index]); 
+                view.ShowDialog();
             }
         }
 
@@ -53,9 +59,8 @@ namespace ClassroomRobot
 
             fout.Position = pos * size;
 
+            bw.Write(obj.StudentNumber.ToString());
             bw.Write(obj.Names);
-            bw.Write(obj.Row.ToString());
-            bw.Write(obj.Column.ToString());
 
             bw.Close();
             fout.Close();
@@ -85,9 +90,8 @@ namespace ClassroomRobot
 
                     fn.Seek(currentRecord * stu.RecSize, 0);
 
+                    stu.StudentNo = br.ReadInt32();
                     stu.Names = br.ReadString().ToString();
-                    stu.Row = br.ReadInt32();
-                    stu.Column = br.ReadInt32();
                 }
 
                 pos = currentRecord;
@@ -100,8 +104,9 @@ namespace ClassroomRobot
 
             }
         }
-        static void FindFromFile(string fileName, int index)
+        public static void FindFromFile(string fileName, int index)
         {
+
             FileStream fn;
             BinaryReader br;
 
@@ -117,17 +122,17 @@ namespace ClassroomRobot
 
                 currentRecord = index;
 
-                fn.Seek(currentRecord * stu.RecSize, 0);
+                fn.Seek(currentRecord * stu.RecSize + 2, 0);
 
                 stu.Names = br.ReadString().ToString();
-                stu.Row = br.ReadInt32();
-                stu.Column = br.ReadInt32();
-
                 pos = currentRecord;
+                stu.Row = Row;
+                stu.Column = Column;
 
                 br.Close();
                 fn.Close();
 
+                GridPosition.StudentList[Index] = stu;
 
             }
             catch(Exception e)

@@ -64,6 +64,14 @@ namespace ClassroomRobot
         /// <param name="column">   The column. </param>
         ///-------------------------------------------------------------------------------------------------
 
+        public int StudentNo;
+
+        public int StudentNumber
+        {
+            set { StudentNo = value; }
+            get { return StudentNo; }
+        }
+
         public Students(string name, int row, int column)
         {
             Names = name;
