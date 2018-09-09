@@ -49,7 +49,7 @@ namespace ClassroomRobot
         /// <summary>   List of students. </summary>
         public static ArrayList StudentList = new ArrayList();
         /// <summary>   The itemlist. </summary>
-        public static ArrayList itemlist = new ArrayList();
+        public static ArrayList ColourList = new ArrayList();
 
         ///-------------------------------------------------------------------------------------------------
         /// <summary>   Reads students from file. </summary>
@@ -83,8 +83,8 @@ namespace ClassroomRobot
                 } 
                 else
                 {
-                    itemlist.Add(new Colours(values[3], Convert.ToInt32(values[1]), Convert.ToInt32(values[0])));
-                    Colours myColour = (Colours)itemlist[i];
+                    ColourList.Add(new Colours(values[3], Convert.ToInt32(values[1]), Convert.ToInt32(values[0])));
+                    Colours myColour = (Colours)ColourList[i];
                     i++;
                 }
             }
@@ -105,7 +105,7 @@ namespace ClassroomRobot
             {
                 dgv.Rows[student.Row].Cells[student.Column].Value = student.Names; 
             }
-            foreach (Colours colour in itemlist)
+            foreach (Colours colour in ColourList)
             {
                 dgv.Rows[colour.Row].Cells[colour.Column].Style.BackColor = System.Drawing.Color.CornflowerBlue;
             }

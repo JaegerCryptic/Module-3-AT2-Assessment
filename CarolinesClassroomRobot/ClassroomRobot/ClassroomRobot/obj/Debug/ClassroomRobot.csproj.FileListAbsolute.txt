@@ -53,3 +53,4 @@ C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobo
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.exe
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.pdb
 C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\bin\Debug\ClassroomRobot.pdb
+C:\Users\jaege\Desktop\Assessment\Module-3-AT2-Assessment\CarolinesClassroomRobot\ClassroomRobot\ClassroomRobot\obj\Debug\ClassroomRobot.csprojAssemblyReference.cache

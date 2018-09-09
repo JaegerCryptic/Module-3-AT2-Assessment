@@ -69,7 +69,7 @@ namespace ClassroomRobot
                 csv.AppendLine(csvStudentFormat);
             }
 
-            foreach(Colours colour in GridPosition.itemlist)
+            foreach(Colours colour in GridPosition.ColourList)
             {
                 var colourColumn = colour.Column;
                 var colourRow = colour.Row;

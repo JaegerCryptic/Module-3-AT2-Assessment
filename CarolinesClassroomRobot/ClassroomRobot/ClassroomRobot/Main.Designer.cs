@@ -238,7 +238,7 @@
             // 
             this.txtSearch.BackColor = System.Drawing.SystemColors.Control;
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtSearch.Location = new System.Drawing.Point(407, 561);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(108, 20);

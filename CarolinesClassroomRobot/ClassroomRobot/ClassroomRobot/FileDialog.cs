@@ -32,6 +32,7 @@ namespace ClassroomRobot
 
         public static void OpenFile(OpenFileDialog openFile)
         {
+
             MessageBox.Show("Please enter a classroom layout");
 
             DialogResult result = openFile.ShowDialog();
